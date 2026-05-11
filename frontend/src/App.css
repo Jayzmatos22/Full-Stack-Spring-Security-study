@@ -1,0 +1,64 @@
+.user-icon-header{
+  color: rgb(85, 246, 139);
+  filter:
+  drop-shadow(0px 5px 15px rgba(5, 162, 246, 0.828)) 
+  drop-shadow(0px 3px 1px rgb(86, 6, 236));
+}
+
+.name-app{
+  color: rgb(216, 180, 252);
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+              'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.font-app{
+  color: rgb(206, 156, 255);
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+              'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.user-login-icon{
+  color: rgb(87, 5, 252);
+  filter:
+  drop-shadow(0px 5px 30px rgba(5, 162, 246, 0.828)) 
+  drop-shadow(0px 3px 10px rgb(86, 6, 236));
+  cursor: pointer;
+}
+
+.UsersRound {
+  color: rgb(87, 5, 252);
+  filter:
+  drop-shadow(0px 5px 30px rgba(5, 162, 246, 0.828)) 
+  drop-shadow(0px 3px 10px rgb(86, 6, 236));
+}
+
+@keyframes cinematic {
+  0% { 
+    transform: scale(1); 
+    background-position: 30% 50%;
+    filter: hue-rotate(0deg) saturate(1) brightness(1);
+  }
+  33% { 
+    transform: scale(1.05); 
+    background-position: 50% 50%;
+    filter: hue-rotate(40deg) saturate(1.2) brightness(11.05);
+  }
+  66% { 
+    transform: scale(1.1); 
+    background-position: 70% 50%;
+    filter: hue-rotate(-25deg) saturate(1.3) brightness(0.95);
+  }
+  100% { 
+    transform: scale(1); 
+    background-position: 30% 50%;
+    filter: hue-rotate(100deg) saturate(1) brightness(2);
+  }
+}
+
+.bg-animate {
+  animation: cinematic 10s ease-in-out infinite;
+}
