@@ -2,6 +2,8 @@
 backend/target/
 backend/.mvn/wrapper/maven-wrapper.jar
 backend/*.class
+.idea/
+*.iml
 
 # Frontend
 frontend/node_modules/
